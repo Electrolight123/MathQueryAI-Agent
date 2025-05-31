@@ -56,23 +56,23 @@ streamlit run app.py
 
 ---
 
-🔑 Configuration
+## 🔑 Configuration
 You must enter your **Groq API Key** in the sidebar when prompted to access the Gemma 2 LLM.
 
 > 🔐 **Groq API Key** is required for the LLM to function. The app won’t proceed without it.
 
 ---
 
-🧠 How It Works
+## 🧠 How It Works
 The app initializes an agent with three powerful tools:
 
-📚 Wikipedia Tool
+## 📚 Wikipedia Tool
 Uses WikipediaAPIWrapper to fetch topic summaries.
 
-➕ Calculator Tool
+## ➕ Calculator Tool
 Uses LLMMathChain to solve numeric problems.
 
-💡 Reasoning Tool
+## 💡 Reasoning Tool
 Custom PromptTemplate and LLMChain to solve logic-based queries.
 
 Once a user inputs a question, the agent selects the most appropriate tool (or combination) to generate a clear, step-by-step answer using Gemma 2 LLM hosted by Groq.
@@ -121,4 +121,4 @@ Open a pull request
 🪪 License
 This project is licensed under the MIT License — see the LICENSE file for details.
 
-<Callout emoji="💡"> Want to use your own LLM backend? Just replace the `ChatGroq` wrapper with another LangChain-compatible LLM in `app.py`. </Callout> ```
+💡 Want to use your own LLM backend? Just replace the `ChatGroq` wrapper with another LangChain-compatible LLM in `app.py`. 
