@@ -1,0 +1,9 @@
+langchain
+streamlit
+langchain-community
+langchain-groq
+duckduckgo_search==5.3.1b1
+pandas
+validators==0.28.1
+wikipedia
+numexpr
