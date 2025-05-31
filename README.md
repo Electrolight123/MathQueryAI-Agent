@@ -20,7 +20,7 @@
   </a>
 </p>
 
-A smart AI-powered assistant built with **Streamlit**, **LangChain**, and **Google Gemma 2**, capable of solving complex text-based mathematical problems and searching Wikipedia for relevant information. This agent uses multiple tools — a calculator, logical reasoning chain, and a knowledge retriever — all orchestrated through a `zero-shot-react-description` LangChain agent.
+> A smart AI-powered assistant built with **Streamlit**, **LangChain**, and **Google Gemma 2**, capable of solving complex text-based mathematical problems and searching Wikipedia for relevant information. This agent uses multiple tools — a calculator, logical reasoning chain, and a knowledge retriever — all orchestrated through a `zero-shot-react-description` LangChain agent.
 
 ---
 
