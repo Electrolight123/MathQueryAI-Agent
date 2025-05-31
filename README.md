@@ -95,7 +95,7 @@ Once a user inputs a question, the agent selects the most appropriate tool (or c
 
 ## ✍️ Usage Example
 
-```css
+```bash
 I have 5 bananas and 7 grapes. I eat 2 bananas and give away 3 grapes. 
 Then I buy a dozen apples and 2 packs of blueberries. Each pack of blueberries contains 25 berries. 
 How many total pieces of fruit do I have at the end?
@@ -104,6 +104,7 @@ How many total pieces of fruit do I have at the end?
 ✅ The assistant parses the logic, performs calculations, and returns:
 
 > 🧮 Final Count: 67 fruits
+
 > 📝 Step-by-step explanation (pointwise)
 
 ---
@@ -124,11 +125,11 @@ How many total pieces of fruit do I have at the end?
 
 Contributions are welcome! 🚀
 
-> 1. Fork the repo
-> 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-> 3. Commit your changes (`git commit -m 'Add amazing feature'`)
-> 4. Push to the branch (`git push origin feature/AmazingFeature`)
-> 5. Open a pull request
+**1.** Fork the repo
+**2.** Create your feature branch (`git checkout -b feature/AmazingFeature`)
+**3.** Commit your changes (`git commit -m 'Add amazing feature'`)
+**4.** Push to the branch (`git push origin feature/AmazingFeature`)
+**5.** Open a pull request
 
 ---
 
