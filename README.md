@@ -1,17 +1,20 @@
 <div align="center">
-# 🧮 MathQueryAI-Agent
+<h1> 🧮 MathQueryAI-Agent </h1>
 </div>
 
 <p align="center">
   <a href="https://streamlit.io/">
     <img src="https://img.shields.io/badge/Made%20With-Streamlit-ff4b4b.svg?style=flat-square" alt="Streamlit" />
   </a>
+  
   <a href="https://python.org">
     <img src="https://img.shields.io/badge/Python-3.9+-blue.svg?style=flat-square" alt="Python" />
   </a>
+  
   <a href="https://github.com/langchain-ai/langchain">
     <img src="https://img.shields.io/badge/LangChain-Enabled-brightgreen.svg?style=flat-square" alt="LangChain" />
   </a>
+  
   <a href="https://github.com/Electrolight123/MathQueryAI-Agent/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/Electrolight123/MathQueryAI-Agent?style=flat-square" alt="License" />
   </a>
