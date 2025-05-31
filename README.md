@@ -32,21 +32,93 @@ A smart AI-powered assistant built with **Streamlit**, **LangChain**, and **Goog
 ## 📦 Installation
 <Tabs> <TabItem value="local" label="🔧 Local Setup" default>
 
-```bash
-
 # 1. Clone the repository
+```bash
 git clone https://github.com/your-username/MathQueryAI-Agent.git
 cd MathQueryAI-Agent
-
+```
 # 2. Create a virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 # 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # 4. Run the app
+```bash
 streamlit run app.py
-
 ```
+
 </TabItem> </Tabs>
+
+---
+
+🔑 Configuration
+You must enter your **Groq API Key** in the sidebar when prompted to access the Gemma 2 LLM.
+
+> 🔐 **Groq API Key** is required for the LLM to function. The app won’t proceed without it.
+
+---
+
+🧠 How It Works
+The app initializes an agent with three powerful tools:
+
+📚 Wikipedia Tool
+Uses WikipediaAPIWrapper to fetch topic summaries.
+
+➕ Calculator Tool
+Uses LLMMathChain to solve numeric problems.
+
+💡 Reasoning Tool
+Custom PromptTemplate and LLMChain to solve logic-based queries.
+
+Once a user inputs a question, the agent selects the most appropriate tool (or combination) to generate a clear, step-by-step answer using Gemma 2 LLM hosted by Groq.
+
+---
+
+✍️ Usage Example
+css
+Copy
+Edit
+I have 5 bananas and 7 grapes. I eat 2 bananas and give away 3 grapes. 
+Then I buy a dozen apples and 2 packs of blueberries. Each pack of blueberries contains 25 berries. 
+How many total pieces of fruit do I have at the end?
+✅ The assistant parses the logic, performs calculations, and returns:
+
+🧮 Final Count: 67 fruits
+📝 Step-by-step explanation (pointwise)
+
+---
+
+👨‍💻 Technologies Used
+Tool	Purpose
+🟣 Streamlit	Web App UI
+🧠 LangChain	Agent management & tool orchestration
+🟡 Groq (Gemma 2)	LLM backend
+📚 Wikipedia API	Knowledge retrieval
+➗ LLMMathChain	Math problem solving
+
+---
+
+🙌 Contributing
+Contributions are welcome! 🚀
+
+Fork the repo
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add amazing feature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a pull request
+
+---
+
+🪪 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+<Callout emoji="💡"> Want to use your own LLM backend? Just replace the `ChatGroq` wrapper with another LangChain-compatible LLM in `app.py`. </Callout> ```
